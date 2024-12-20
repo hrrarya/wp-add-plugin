@@ -1,0 +1,2 @@
+# WordPress Plugin Boilerplate CLI
+
