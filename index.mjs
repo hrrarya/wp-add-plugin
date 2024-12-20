@@ -74,7 +74,7 @@ function renameMainFile(pluginDir, textDomain) {
     for (var i = oldFiles.length - 1; i >= 0; i--) {
         if (fs.existsSync(oldFiles[i])) {
             fs.renameSync(oldFiles[i], newFiles[i]);
-            console.log(`Renamed main file to: ${newFiles[i]}`);
+            // console.log(`Renamed main file to: ${newFiles[i]}`);
         } else {
             console.warn(`${oldFiles?.[i]} file not found. Skipping rename.`);
         }

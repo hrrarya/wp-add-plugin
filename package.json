@@ -1,6 +1,6 @@
 {
-  "name": "wp-plugin-cli",
-  "version": "1.0.0",
+  "name": "wp-add-plugin",
+  "version": "1.0.1",
   "main": "index.mjs",
   "license": "MIT",
   "type": "module",
@@ -11,5 +11,16 @@
   },
   "bin": {
     "wp-add-plugin": "./index.mjs"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "cli",
+    "automation"
+  ],
+  "author": "Hridoy Mozumder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hrrarya/wp-add-plugin.git"
   }
 }
